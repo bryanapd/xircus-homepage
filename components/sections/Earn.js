@@ -13,12 +13,12 @@ const EarnCard = ({ children, src }) => (
   </HStack>
 )
 
-export const Earn = ({ title = 'How to Earn', subtitle, items = []}) => (
+export const Earn = ({ translation, items = []}) => (
   <Box {...boxStyle.earn}>
     <Container {...containerStyle}>
       <Stack spacing={8}>
-        <Heading>{title}</Heading>
-        <Text>{subtitle}</Text>
+        <Heading>{translation('title')}</Heading>
+        <Text>{translation('subtitle')}</Text>
         <Grid {...gridStyle.earn}>
           {
             items.map((item, itemKey) => 

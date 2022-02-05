@@ -12,10 +12,10 @@ const ItemCard = ({ children }) => (
     { children }
   </Stack>
 )
-export const Products = ({ title = 'Products', items = [], }) => (
+export const Products = ({ translation, items = [] }) => (
   <Box {...boxStyle.products}>
     <Container {...containerStyle}>
-      <Heading pb={10}>{title}</Heading>
+      <Heading pb={10}>{translation('title')}</Heading>
       <Grid {...gridStyle.product}>
         {items.map((item, itemKey) => 
         <ItemCard key={itemKey} {...item}>

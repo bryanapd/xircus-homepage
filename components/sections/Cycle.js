@@ -13,12 +13,12 @@ export const CycleCard = ({ src }) => (
     <Text pos="relative" top={100}>Deploy on multiple <br /> blockchain protocols</Text>
   </Box>
 )
-export const Cycle = ({ cycles = []}) => (
+export const Cycle = ({ cycles = [], translation}) => (
   <Box>
     <Container {...containerStyle}>
       <Stack {...boxStyle.cycle}>
-        <Heading {...typoStyle.title}>Take full control of the NFT Space</Heading>
-        <Text pb={20}>Built on multiple chains, NFT marketplaces that are deployed, owned and governed by YOU</Text>
+        <Heading {...typoStyle.title}>{translation('title')}</Heading>
+        <Text pb={20}>{translation('subtitle')}</Text>
         <Grid {...gridStyle.cycle}>
           {cycles.map((cycle, cycleKey) => (
             <CycleCard key={cycleKey} src={cycle}/>
@@ -26,9 +26,7 @@ export const Cycle = ({ cycles = []}) => (
         </Grid>
       </Stack>
       <Center>
-        <Box {...boxStyle.hugeBox}>
-          Voluptate ut consequat ipsum enim.Qui cupidatat dolor minim in ullamco voluptate minim id commodo 
-          aliquip veniam sunt consectetur.Eu minim ea voluptate minim nulla cupidata</Box>
+        <Box {...boxStyle.hugeBox}>{translation('hugeBox')}</Box>
       </Center>
     </Container>
   </Box>

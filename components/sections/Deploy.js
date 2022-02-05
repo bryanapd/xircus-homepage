@@ -4,10 +4,10 @@ import {
 } from '@chakra-ui/react'
 import { containerStyle, tabsStyle, typoStyle, imageStyle } from '../../styles/globalStyle'
 
-export const Deploy = ({ title = 'What Can You Deploy?', items = []}) => (
+export const Deploy = ({ translation, items = []}) => (
   <Box pt={100}>
     <Container {...containerStyle.full} centerContent>
-      <Heading {...typoStyle.title}>{title}</Heading>
+      <Heading {...typoStyle.title}>{translation('title')}</Heading>
       <Stack pt={10}>
         <Tabs {...tabsStyle}>
           <TabList flex={1}>

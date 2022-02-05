@@ -9,7 +9,7 @@ const FeatureCard = ({label, src}) => (
     <Text {...typoStyle.label}>{label}</Text>
   </Box>
 )
-export const Features = ({ title = 'Built-In and Add-on Features', features = [] }) => {
+export const Features = ({ translation, features = [] }) => {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
@@ -18,7 +18,7 @@ export const Features = ({ title = 'Built-In and Add-on Features', features = []
   return (
     <Stack {...boxStyle.feature}>
       <Container {...containerStyle}>
-        <Heading pb={20}>{title}</Heading>
+        <Heading pb={20}>{translation('title')}</Heading>
         <Carousel breakPoints={breakPoints} itemsToShow={4} itemPadding={[5, 10]}>
           {features.map((feature, featureKey) => (
             <FeatureCard key={featureKey} src={feature.image} label={feature.label} />

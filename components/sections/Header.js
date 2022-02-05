@@ -1,17 +1,16 @@
 import { 
   Box, Text, Spacer, Heading, Container, 
-  HStack, Menu, MenuItem, MenuButton, 
-  Button, MenuList, Image, useDisclosure, 
-  Stack, IconButton, Link,
+  HStack, Image, useDisclosure, 
+  Stack, IconButton, Link, Select,
  } from '@chakra-ui/react'
 import { 
   ChevronDownIcon, HamburgerIcon, CloseIcon 
 } from '@chakra-ui/icons'
 import { 
   boxStyle, buttonStyle, containerStyle, linkStyle, 
-  typoStyle, logoStyle, menuItemStyle 
+  typoStyle, logoStyle, 
 } from '../../styles/globalStyle'
-
+import Router from 'next/router'
 
 const AppLogo = ({ src }) => (
   <Image {...logoStyle.header} src={src} />
@@ -20,32 +19,28 @@ const AppLogo = ({ src }) => (
 const NavLink = ({ children }) => (
   <Link {...linkStyle} href="#">{ children }</Link>
 )
-
-const FilterMenu = ({ filterName, options = [] }) => (
-  <Menu>
-    <MenuButton {...buttonStyle.menu} as={Button} rightIcon={<ChevronDownIcon />}>
-      {filterName}
-    </MenuButton>
-    <MenuList>
-      {options.map(option => <MenuItem {...menuItemStyle} {...option} key={option.key}>{option.label}</MenuItem>)}
-    </MenuList>
-  </Menu>  
+const Filter = () => (
+  <Select {...buttonStyle.menu} defaultValue="en" rightIcon={<ChevronDownIcon />} onChange={e => Router.push('/', '/', { locale: e.target.value })}>
+    <option value="en">English</option>
+    <option value="jp">Japanese</option>
+  </Select>
 )
-
-export const Header = ({ src, title = 'XIRCUS', links = [], selected, filters = [] }) => {
+export const Header = ({ src, translation }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <Box>
       <Container {...containerStyle}>
         <HStack spacing={3}>
           <AppLogo src={src} />
-          <Heading {...typoStyle.header}>{title}</Heading>
+          <Heading {...typoStyle.header}>{translation('name')}</Heading>
           <Spacer />
           <HStack {...boxStyle.header}>
             <HStack {...boxStyle.header}>
-              {links.map((link, linkItem) => <Text key={linkItem}>{link}</Text>)}
+              <Text>{translation('features')}</Text>
+              <Text>{translation('getStarted')}</Text>
+              <Text>{translation('howToEarn')}</Text>
             </HStack>
-            <FilterMenu filterName={selected} options={filters} />
+            <Filter />
           </HStack>
           <IconButton
             {...buttonStyle.headerButton}
@@ -59,7 +54,7 @@ export const Header = ({ src, title = 'XIRCUS', links = [], selected, filters = 
               {links.map((link) => (
                 <NavLink key={link}>{link}</NavLink>
               ))}
-              <FilterMenu filterName={selected} options={filters} />
+              <Filter />
             </Stack>
           </Box>
         ) : null}

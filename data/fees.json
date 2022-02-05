@@ -1,0 +1,16 @@
+[
+  { 
+    "label": "Marketplace Owner", 
+    "price": "450,000 USDC"
+  },
+  { 
+    "label": "Data Provider", 
+    "price": "100,000 USDC" 
+  },
+  { "label": "Ambassador", 
+    "price": "200,000 USDC" 
+  },
+  { "label": "Xircus", 
+    "price": "250,000 USDC" 
+  }
+]

@@ -3,13 +3,13 @@ import { NextIntlProvider } from 'next-intl'
 import { ChakraProvider } from '@chakra-ui/react'
 
 function MyApp({ Component, pageProps, router }) {
-  // const messages = require(`../i18n/${router.locale}.json`)
+  const messages = require(`../i18n/${router.locale}.json`)
   return (
-    // <NextIntlProvider>
+    <NextIntlProvider messages={messages}>
       <ChakraProvider>
         <Component {...pageProps} />
       </ChakraProvider>
-    // </NextIntlProvider>
+    </NextIntlProvider>
   ) 
 }
 

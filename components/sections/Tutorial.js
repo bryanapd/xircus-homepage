@@ -4,11 +4,11 @@ import {
 } from '@chakra-ui/react'
 import { boxStyle, containerStyle, imageStyle, tutorialTabs } from '../../styles/globalStyle'
 
-export const Tutorial = ({ title = 'Easy Steps To Get Started', tabs = [], }) => (
+export const Tutorial = ({ translation, tabs = [], }) => (
   <Stack {...boxStyle.tutorial}>
     <Box {...boxStyle.clipped} />
     <Container {...containerStyle.full} centerContent>
-      <Heading pt={20} pb={5}>{title}</Heading>
+      <Heading pt={20} pb={5}>{translation('title')}</Heading>
       <Tabs {...tutorialTabs}>
 
         <TabList>

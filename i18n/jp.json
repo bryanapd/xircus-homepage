@@ -1,0 +1,55 @@
+{
+  "header" : {
+    "name": "Xircus",
+    "features": "特徴",
+    "getStarted": "始めましょう",
+    "howToEarn": "稼ぐ方法"
+  },
+  "hero": {
+    "name": "Xircus",
+    "headLine": "今日からNFTビジネスを始めましょう！",
+    "subHeadLine": "カスタマイズ可能なNFTマーケットプレイスを、すばらしい機能がバンドルされた数分で展開します",
+    "deploy": "マーケットプレイスを展開する",
+    "punks": "早期アクセス用のXircusPunksを入手"
+  },
+  "cycle": {
+    "title": "NFTスペースを完全に制御する",
+    "subtitle": "複数のチェーン上に構築され、YOUによって展開、所有、管理されるNFTマーケットプレイス",
+    "hugeBox": "複数のチェーン上に構築され、YOUによって展開、所有、管理されるNFTマーケットプレイス複数のチェーン上に構築され、YOUによって展開、所有、管理されるNFTマーケットプレイス"
+  },
+  "products": {
+    "title": "製品"
+  },
+  "earn": {
+    "title": "稼ぐ方法",
+    "subtitle": "分散型NFTマーケットプレイスの力を解き放つ"
+  },
+  "deploy": {
+    "title": "配備"
+  },
+  "tutorial": {
+    "title": "始めるための簡単なステップd"
+  },
+  "blockchains": {
+    "title": "複数のブロックチェーンのサポート」",
+    "subtitle": "Xircusは、複数のブロックチェーンを選択するためのマルチチェーン展開をサポートしています"
+  },
+  "features": {
+    "title": "組み込みおよびアドオン機能"
+  },
+  "income": {
+    "title": "収入計算機",
+    "subLabel": "USDCで支払われた1,000,000のNFTアイテムを使用した例",
+    "label": "あなたの市場の造幣局の手数料はいくらですか？",
+    "oDollar": "¥115.19",
+    "hDollar": "¥11522.50"
+  },
+  "footer": {
+    "name": "無断複写・転載を禁じます2021 | XircusPte。株式会社",
+    "blog": "ブログ", 
+    "resources": "資力", 
+    "terms": "規約と条件", 
+    "privacy": "プライベート", 
+    "contactUs": "お問い合わせ"
+  }
+}

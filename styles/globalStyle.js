@@ -38,6 +38,12 @@ export const typoStyle = {
   }
 }
 export const boxStyle = {
+  index: {
+    bgImg: 'https://uce12fe64a2327de4f90bd2dd634.previews.dropboxusercontent.com/p/thumb/ABaWqz7S8B3W0XjybzVFe2NzkfwOZMDJl2lv1yr7fy3KBTgvyioYfsCJU_Jafc-ioTBHHO9Zz7szUkbMClfz1W_2H099eniFvjawvHu6SgtA3Tbtb7cMq7RXqvvxi3Dr9Fphh99Qnkba8l1R3zibtGPpF0NeTOOCTfq289hSdKRv2k4dpZvSERSy-c9JHa69_WOy7ySN_xvTiiofIt1NC4EjbXLWo3VE-lxtW4jVRVLUxnlZYiGES0S4RDTm7FeiSg5Mt3mkFG73_8ZjhnRdPw5Qm9pgCJC2NrFJW3-m5I_N2HGc46VWo5ewnHOPfJTnqP8gpsOvZqgSJvcA7nB04YVtV3VMp3OBQ28D938ri44DQT_jSXRBRMczfiKRE3-2qHs/p.png',
+    bgRepeat: 'no-repeat',
+    bgSize: 'cover',
+    color: 'white',
+  },
   header: {
     spacing: 7, 
     display: { base: 'none', md: 'flex' }
@@ -50,6 +56,10 @@ export const boxStyle = {
   hero: {
     p: 10,
     textAlign: 'center',
+  },
+  heroItems: {
+    align: 'center', 
+    spacing: 5
   },
   products: {
     pt: 100,
@@ -162,6 +172,11 @@ export const gridStyle = {
 
 }
 export const buttonStyle = {
+  headerButton: {
+    size: 'md',
+    bg: 'transparent',
+    display: { md: 'none' }
+  },
   gradient: {
     color: 'white',
     transition: 'all 300ms ease',
@@ -184,16 +199,12 @@ export const buttonStyle = {
       bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)' 
     }
   },
-  headerButton: {
-    size: 'md',
-    bg: 'transparent',
-    display: { md: 'none' }
-  },
   menu: {
     color: 'white',
     transition: 'all 300ms ease',
     rounded: 'full',
     variant: 'outline',
+    w: '120px',
     borderRadius: 6,
     size: 'md',
     _hover: { 

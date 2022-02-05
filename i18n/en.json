@@ -1,8 +1,55 @@
 {
-  "header:" : {
+  "header" : {
     "name": "Xircus",
     "features": "Features",
     "getStarted": "Get Started",
     "howToEarn": "How To Earn"
+  },
+  "hero": {
+    "name": "Xircus",
+    "headLine": "Start your NFT business today!",
+    "subHeadLine": "Deploy your customizable NFT marketplace in minutes bundled with awesome features",
+    "deploy": "Deploy Marketplace",
+    "punks": "Get XircusPunks for Early Access"
+  },
+  "cycle": {
+    "title": "Take full control of the NFT Space",
+    "subtitle": "Built on multiple chains, NFT marketplaces that are deployed, owned and governed by YOU",
+    "hugeBox": "Voluptate ut consequat ipsum enim.Qui cupidatat dolor minim in ullamco voluptate minim id commodo aliquip veniam sunt consectetur.Eu minim ea voluptate minim nulla cupidata"
+  },
+  "products": {
+    "title": "Products"
+  },
+  "earn": {
+    "title": "How to Earn",
+    "subtitle": "Unleash the power of decentralized NFT marketplaces"
+  },
+  "deploy": {
+    "title": "Deploy"
+  },
+  "tutorial": {
+    "title": "Easy Steps To Get Started"
+  },
+  "blockchains": {
+    "title": "Multiple Blockchain Support",
+    "subtitle": "Xircus supports multi-chain deployment for multiple blockchain selection"
+  },
+  "features": {
+    "title": "Built-In and Add-on Features"
+  },
+  "income": {
+    "title": "Income Calculator",
+    "subLabel": "Example using 1,000,000 NFT items minted, paid with USDC",
+    "label": "What's your marketplace mint fee?",
+    "oDollar": "$1",
+    "hDollar": "$1"
+  },
+  "footer": {
+    "name": "All Rights Reserved 2021 | Xircus Pte. Ltd",
+    "blog": "Blog", 
+    "resources": "Resources", 
+    "terms": "Terms and Conditions", 
+    "privacy": "Privary", 
+    "contactUs": "Contact Us"
   }
 }
