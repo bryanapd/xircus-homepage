@@ -5,7 +5,8 @@ import { FaFacebookF , FaTelegram, FaYoutube, FaGitter, FaTwitter, FaLinkedin } 
 import { 
   Header, Hero, Cycle, Products, Earn, Deploy, Tutorial, 
   BlockchainSupport, Attributes, Features, Income, Footer, 
-  Partners
+  Partners,
+  CycleCard
 } from '../components/'
 
 import partners from '../data/partners.json'
@@ -27,6 +28,7 @@ export default function Home() {
   const headerTranslations = useTranslations('header')
   const heroTranslations = useTranslations('hero')
   const cycleTranslations = useTranslations('cycle')
+  const cycleCardTranlations = useTranslations('cycleItems')
   const productsTranslations = useTranslations('products')
   const earnTranslations = useTranslations('earn')
   const deployTranslations = useTranslations('deploy')
@@ -42,7 +44,7 @@ export default function Home() {
     <Header src={appIcon} translation={headerTranslations} />
     <Hero src={appIcon} translation={heroTranslations} />
     <Partners items={partners}/>
-    <Cycle cycles={cycle} translation={cycleTranslations} />
+    <Cycle cycles={cycle} cardTranslation={cycleCardTranlations} translation={cycleTranslations} />
     <Products items={products} translation={productsTranslations} />
     <Earn items={earn} translation={earnTranslations}/>
     <Attributes earn={attributes}/>
