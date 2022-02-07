@@ -7,13 +7,12 @@ import {
   containerStyle, itemCardStyle, imageStyle, gridStyle
 } from '../../styles/globalStyle'
 
-export const CycleCard = ({ src }) => (
-  <Box {...itemCardStyle.cycle}>
-    <Image src={src} {...imageStyle.cycle}/>
-    <Text pos="relative" top={100}>Deploy on multiple <br /> blockchain protocols</Text>
+export const CycleCard = ({ children }) => (
+  <Box  {...itemCardStyle.cycle}>
+    {children}
   </Box>
 )
-export const Cycle = ({ cycles = [], translation}) => (
+export const Cycle = ({ cycles = [], translation, cardTranslation}) => (
   <Box>
     <Container {...containerStyle}>
       <Stack {...boxStyle.cycle}>
@@ -21,7 +20,10 @@ export const Cycle = ({ cycles = [], translation}) => (
         <Text pb={20}>{translation('subtitle')}</Text>
         <Grid {...gridStyle.cycle}>
           {cycles.map((cycle, cycleKey) => (
-            <CycleCard key={cycleKey} src={cycle}/>
+            <CycleCard key={cycleKey} cardTranslation={cardTranslation}>
+              <Image src={cycle.image} {...imageStyle.cycle} />
+              <Text {...typoStyle.cycle}>{cycle.label}</Text>
+            </CycleCard>
           ))}
         </Grid>
       </Stack>

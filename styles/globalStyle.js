@@ -35,6 +35,10 @@ export const typoStyle = {
   },
   text: {
     fontSize: 10
+  },
+  cycle: {
+    pos: 'relative', 
+    top: 100
   }
 }
 export const boxStyle = {

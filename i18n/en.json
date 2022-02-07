@@ -7,7 +7,7 @@
   },
   "hero": {
     "name": "Xircus",
-    "headLine": "Start your NFT business today!",
+    "headLine": "Start your <br /> NFT business today!",
     "subHeadLine": "Deploy your customizable NFT marketplace in minutes bundled with awesome features",
     "deploy": "Deploy Marketplace",
     "punks": "Get XircusPunks for Early Access"
@@ -16,6 +16,9 @@
     "title": "Take full control of the NFT Space",
     "subtitle": "Built on multiple chains, NFT marketplaces that are deployed, owned and governed by YOU",
     "hugeBox": "Voluptate ut consequat ipsum enim.Qui cupidatat dolor minim in ullamco voluptate minim id commodo aliquip veniam sunt consectetur.Eu minim ea voluptate minim nulla cupidata"
+  },
+  "cycleCard": {
+    "firstItem": "Deploy on multiple blockchain protocols"
   },
   "products": {
     "title": "Products"
