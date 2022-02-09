@@ -5,8 +5,7 @@ import { FaFacebookF , FaTelegram, FaYoutube, FaGitter, FaTwitter, FaLinkedin } 
 import { 
   Header, Hero, Cycle, Products, Earn, Deploy, Tutorial, 
   BlockchainSupport, Attributes, Features, Income, Footer, 
-  Partners,
-  CycleCard
+  Partners, Skins
 } from '../components/'
 
 import partners from '../data/partners.json'
@@ -15,7 +14,7 @@ import products from '../data/products.json'
 import earn from '../data/earn.json'
 import attributes from '../data/attributes.json'
 import skins from '../data/skins.json'
-import tabs from '../data/tabs.json'
+import tutorial from '../data/tutorial.json'
 import blockchains from '../data/blockchains.json'
 import features from '../data/features.json'
 import income from '../data/income.json'
@@ -28,14 +27,21 @@ export default function Home() {
   const headerTranslations = useTranslations('header')
   const heroTranslations = useTranslations('hero')
   const cycleTranslations = useTranslations('cycle')
-  const cycleCardTranlations = useTranslations('cycleItems')
+  const cycleCardTranlations = useTranslations('cycleCard')
   const productsTranslations = useTranslations('products')
+  const productsCardTranslations = useTranslations('productsCard')
   const earnTranslations = useTranslations('earn')
-  const deployTranslations = useTranslations('deploy')
+  const eardCardTranslations = useTranslations('earnCard')
+  const attributesCardTranslations = useTranslations('attributesCard')
+  const skinsTranslations = useTranslations('skins')
+  const skinsItemsTranslations = useTranslations('skinsItems')
   const tutorialTranslations = useTranslations('tutorial')
+  const tutorialItemsTranslations = useTranslations('tutorialItems')
   const blockchainsTranslations = useTranslations('blockchains')
   const featuresTranslations = useTranslations('features')
+  const featuresCardTranslations = useTranslations('featuresCard')
   const incomeTranslations = useTranslations('income')
+  const incomeItemsTranslations = useTranslations('incomeItems')
   const footerTranslation = useTranslations('footer')
 
   return (
@@ -43,16 +49,16 @@ export default function Home() {
 
     <Header src={appIcon} translation={headerTranslations} />
     <Hero src={appIcon} translation={heroTranslations} />
-    <Partners items={partners}/>
-    <Cycle cycles={cycle} cardTranslation={cycleCardTranlations} translation={cycleTranslations} />
-    <Products items={products} translation={productsTranslations} />
-    <Earn items={earn} translation={earnTranslations}/>
-    <Attributes earn={attributes}/>
-    <Deploy items={skins} translation={deployTranslations} />
-    <Tutorial tabs={tabs} translation={tutorialTranslations}/>
+    <Partners items={partners} />
+    <Cycle cycles={cycle} translation={cycleTranslations} cardTranslation={cycleCardTranlations} />
+    <Products items={products} translation={productsTranslations} cardTranslation={productsCardTranslations} />
+    <Earn items={earn} translation={earnTranslations} cardTranslation={eardCardTranslations} />
+    <Attributes attributes={attributes} cardTranslation={attributesCardTranslations} />
+    <Skins items={skins} translation={skinsTranslations} cardTranslation={skinsItemsTranslations} />
+    <Tutorial tutorial={tutorial} translation={tutorialTranslations} cardTranslation={tutorialItemsTranslations} />
     <BlockchainSupport items={blockchains} translation={blockchainsTranslations} />
-    <Features features={features} translation={featuresTranslations} />
-    <Income items={income} fees={fees} translation={incomeTranslations}/>
+    <Features features={features} translation={featuresTranslations} cardTranslation={featuresCardTranslations} />
+    <Income items={income} fees={fees} translation={incomeTranslations} cardTranslation={incomeItemsTranslations} />
     <Footer socmed={socmed} translation={footerTranslation} />
 
    </Box>

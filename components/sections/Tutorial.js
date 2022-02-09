@@ -4,7 +4,7 @@ import {
 } from '@chakra-ui/react'
 import { boxStyle, containerStyle, imageStyle, tutorialTabs } from '../../styles/globalStyle'
 
-export const Tutorial = ({ translation, tabs = [], }) => (
+export const Tutorial = ({ cardTranslation, translation, tutorial = [], }) => (
   <Stack {...boxStyle.tutorial}>
     <Box {...boxStyle.clipped} />
     <Container {...containerStyle.full} centerContent>
@@ -12,11 +12,11 @@ export const Tutorial = ({ translation, tabs = [], }) => (
       <Tabs {...tutorialTabs}>
 
         <TabList>
-          {tabs.map((tab, index) => ( <Tab>{tab.label}</Tab>))}
+          { tutorial.map((tutorial, tabKey) => ( <Tab key={tabKey}>{cardTranslation(tutorial.label)}</Tab>)) }
         </TabList>
 
         <TabPanels>
-          { tabs.map((panel, index) => (<TabPanel {...panel}><Image {...imageStyle.tutorial} src={panel.image}/></TabPanel>)) }
+          { tutorial.map((panel, tabKey) => (<TabPanel key={tabKey} {...panel}><Image {...imageStyle.tutorial} src={panel.image}/></TabPanel>)) }
         </TabPanels>
 
       </Tabs>

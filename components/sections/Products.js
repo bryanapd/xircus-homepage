@@ -12,7 +12,7 @@ const ItemCard = ({ children }) => (
     { children }
   </Stack>
 )
-export const Products = ({ translation, items = [] }) => (
+export const Products = ({ translation, cardTranslation, items = [] }) => (
   <Box {...boxStyle.products}>
     <Container {...containerStyle}>
       <Heading pb={10}>{translation('title')}</Heading>
@@ -20,8 +20,8 @@ export const Products = ({ translation, items = [] }) => (
         {items.map((item, itemKey) => 
         <ItemCard key={itemKey} {...item}>
           <Image {...imageStyle.product} src={item.image} />
-          <Heading {...typoStyle.label}>{item.label}</Heading>
-          <Text {...typoStyle.sublabel}>{item.sublabel}</Text>
+          <Heading {...typoStyle.label}>{cardTranslation(item.label)}</Heading>
+          <Text {...typoStyle.sublabel}>{cardTranslation(item.sublabel)}</Text>
         </ItemCard>)}
       </Grid>
     </Container>

@@ -9,14 +9,14 @@ import {
   incomeUnorderedItems, ulListStyle
 } from '../../styles/globalStyle'
 
-export const Income = ({ translation, items = [], fees = []}) => (
+export const Income = ({ translation, cardTranslation, items = [], fees = []}) => (
   <Box>
     <Container {...containerStyle}>
       <Flex {...boxStyle.income}>
         <Stack {...boxStyle.incomeUnorderedItems}>
           <Heading {...typoStyle.title}>{translation('title')}</Heading>
           <UnorderedList {...ulListStyle}>
-            {items.map((item, itemKey) => (<ListItem {...typoStyle.sublabel}>{item}</ListItem>))}
+            {items.map((item, itemKey) => (<ListItem {...typoStyle.sublabel}>{cardTranslation(item.label)}</ListItem>))}
           </UnorderedList>
         </Stack>
         <Stack {...boxStyle.incomeUnorderedItems}>

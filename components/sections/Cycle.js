@@ -8,7 +8,7 @@ import {
 } from '../../styles/globalStyle'
 
 export const CycleCard = ({ children }) => (
-  <Box  {...itemCardStyle.cycle}>
+  <Box {...itemCardStyle.cycle}>
     {children}
   </Box>
 )
@@ -20,9 +20,9 @@ export const Cycle = ({ cycles = [], translation, cardTranslation}) => (
         <Text pb={20}>{translation('subtitle')}</Text>
         <Grid {...gridStyle.cycle}>
           {cycles.map((cycle, cycleKey) => (
-            <CycleCard key={cycleKey} cardTranslation={cardTranslation}>
+            <CycleCard key={cycleKey}>
               <Image src={cycle.image} {...imageStyle.cycle} />
-              <Text {...typoStyle.cycle}>{cycle.label}</Text>
+              <Text {...typoStyle.cycle}>{cardTranslation(cycle.label)}</Text>
             </CycleCard>
           ))}
         </Grid>

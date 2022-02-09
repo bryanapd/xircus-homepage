@@ -4,7 +4,7 @@ import {
 } from '@chakra-ui/react'
 import { containerStyle, tabsStyle, typoStyle, imageStyle } from '../../styles/globalStyle'
 
-export const Deploy = ({ translation, items = []}) => (
+export const Skins = ({ translation, cardTranslation, items = []}) => (
   <Box pt={100}>
     <Container {...containerStyle.full} centerContent>
       <Heading {...typoStyle.title}>{translation('title')}</Heading>
@@ -13,7 +13,7 @@ export const Deploy = ({ translation, items = []}) => (
           <TabList flex={1}>
             {items.map((item, i) => (
               <Box p={3}>
-                <Tab {...typoStyle.subheadline}>{item.label}</Tab>
+                <Tab {...typoStyle.subheadline}>{cardTranslation(item.label)}</Tab>
                 <Divider />
               </Box>
             ))}
@@ -21,7 +21,7 @@ export const Deploy = ({ translation, items = []}) => (
           <TabPanels flex={3}>
             {items.map((item, i) => (
               <TabPanel>
-                <Image {...imageStyle.deploy} src={item.image} />
+                <Image {...imageStyle.skins} src={item.image} />
               </TabPanel>
             ))}
           </TabPanels>

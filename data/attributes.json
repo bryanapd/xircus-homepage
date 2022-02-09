@@ -1,37 +1,45 @@
 [
-  { "label": "NFTs", 
-    "sublabel": "Fully customizable NFT collection for single or multiple edition with built in sale, royalty and split features", 
+  { "label": "firstItemLabel", 
+    "sublabel": "firstItemSubLabel", 
+    "bg": "linear(to-l, #7928CA, #FF0080)",
     "image": "https://uc856f6299ed207768bd69e37d42.previews.dropboxusercontent.com/p/thumb/ABbkc9nbEhaEG7iIkmkOZgyZPyH1wawPyHBcot7Hy2PhcNP9BrIBqAQMZ_YMArhuilbuK0i8Fhhkgz8-XXduALg09411-qyr23mOxq1sPXOpQJsQZ3MSyggKGpglOWcLPU_I2fp702803WLkhDV8G7Xbk2yYHl5H_eOozuo2slNo36sCJBhTSbuWCd5Hs3w3wtgfYfPgQQqpQm73fQzLEMlMPsfe72q-xJ9Aub-ERn6NDrKd8XSkvWayBBjnZhZ4_OQUbgK9PUj6LYJzgZXaD3P2cwmR1W1FrQsNKOUXh13Yb07UyrQMT40st724yqKXkEBeNsC1HOo-u_JxvkbDxFa3XBzTOth5UOAmKe5hQgvra6OddgfKsnNA3GOUcwSR8vc/p.png"
   },
-  { "label": "Marketplaces", 
-    "sublabel": "Fully customizable NFT collection for single or multiple edition with built in sale", 
+  { "label": "secondItemLabel", 
+    "sublabel": "secondItemSubLabel", 
+    "bg": "linear(to-l, #240b36, #c31432)",
     "image": "https://uc281484210df2cb4f09408a6805.previews.dropboxusercontent.com/p/thumb/ABbQzvGm-VgQXY261QWe5mIzfSt4mavZ_p_ocm8y9msjrYFpqxiVJkTPk0QpjPj15lDqRroVZoJy6g7IzGAqvDNoOyxpRv19rSFyZogXzotxVQif_TsdVqfGc3b0fkecBDf1Q_VwB-W9kLjQaR-inSVWEBS8c3ArH7yAqk15bipEN1AiRdrtO8Ot8dmjASRGsnWQi7ss3Mh1E1E3eY7hmC41rLRlMzFQ0sRVJwSiGS_v5NUP2trmf-FvhcGzOAivuxckL9NIfyAPHgysJZqhmwoEWXzJwTzvtRyTeCP_kOmAeVnwmr1EM6kItHIMHd3ivbiQCwEhJw7nYePvhRcTrS2ZPhHg5gOHmYaGSqZcLhLm2ng9ptal-GMrs35AHxGfHoo/p.png" 
   },
-  { "label": "Tokens", 
-    "sublabel": "Fully customizable NFT collection for single or multiple edition with built in sale", 
+  { "label": "thirdItemLabel", 
+    "sublabel": "thirdItemSubLabel", 
+    "bg": "linear(to-l, #11998e, #38ef7d)",
     "image": "https://ucd83ba7f9290e2fa425843d381c.previews.dropboxusercontent.com/p/thumb/ABaQ82eHbyk2f1KWYB46Jv5vU8itxPbJ7RlZzj8aoAXcA0TV9Zpv1SYlxbmHIGgRbVhqFq1nM_gPRtAsiiazSbyp2IJIGf6oR2qEQsqNiRD0OAEHVAvylyMt60xPGVRYQI87q29saxvETbfewgrLoz-qyVVDiXuQM49Fu3LKXUg9WRikcaANp4ceAEtlA3Rl26-LDM7ZzzQtF92ydxlQOpNiZJcSEPrmulTJHXWkvyjPEOhxu8EUBaELFBCXNxJEDAx1gnODF68e4Tyxq-0DjywG2e9-ih7r1WG06tmnhzeXx1M_G0fv-GBKbMoRVWVZmYglBfczX41e7ldrGKFCcWJrpTK-sMRXMUSrBPa77u-yJUSLX6RxJla2VK_ruwVSJnk/p.png" 
   },
-  { "label": "Packs", 
-    "sublabel": "Fully customizable NFT collection for single or multiple edition with built in sale", 
+  { "label": "fourthItemLabel", 
+    "sublabel": "fourthItemSubLabel", 
+    "bg": "linear(to-l, #7928CA, #FF0080)",
     "image": "https://ucc85ccb5d0bfdfc95352c4c4dd8.previews.dropboxusercontent.com/p/thumb/ABbCXaGJvEveHNz77DW6TAz9yQKdD9JWUdPI-iR9tmHkiwOT2goDjjN-HZK9fq-i-cH6np7CsriPWawyr-549viZzFSAsCeXxMkT-iUG8yOY6yMEYkSnDV4KNjc8c_9W-PD20cwDYXGIbw5WOuciPvm899alUdlln2ChzLSqeGDEtw7403QKpiIW2gJ6ojTurM0XTxbm35NQiWbkD2RvLDcMdRmzqbr9i_FFnwDqKm9M_CIZI83dFvxOb93dNSdweWnphhKdN0Au2MvQCP7amIoPKtdXKMIime0zsLLileThH6qPlcSEaJKff3X4FusL0dQxZ4O7rgRp-y4yHgJABjOF8mcbc8ArdKH1qJl0b1QIZH3RO3s16I1G1yhqMmF2Xpc/p.png" 
   },
   { 
-    "label": "Staking", 
-    "sublabel": "Fully customizable NFT collection for single or multiple edition with built in sale", 
+    "label": "fifthItemLabel", 
+    "sublabel": "fifthItemSubLabel", 
+    "bg": "linear(to-l, #240b36, #c31432)",
     "image": "https://ucb5d7d785f43285890eb164e7e8.previews.dropboxusercontent.com/p/thumb/ABbHVNSXcW2ksH26NQJOFaeaCOGbdVKEr9TFU_YcxcYuNYhZYKN8-No6WQqF0hGhLdl_ZMz1G-GCnVRlMWw1jMkhg_xj1930HVjitAiGlx8FUyWeR7WrU4VdD3Zugyj75TKA4qEcOSbKQQlXruXkItAp3HaQ8bCovA21txES08-oWjvpDnHAJ9MWPwUo18hF6GgFIO_vZ5a4tyUwvCVtIdJkj4kclIYAp9mnkoHAODh0qOd74FppTeWEs6iem1oHXIcS0WAVCHxje2SbEhtjkgh02rnXeFrBPvO_Rv_a8un3-CjIqHwkd3YaQp8EnlYLyN6uWMTfzHhoMMK-AP00zuh3vss38a13JdytJj0stBOCplawTV2Y_8iz16GBZ5TB9Is/p.png" 
   },
   { 
-    "label": "Drops", 
-    "sublabel": "Fully customizable NFT collection for single or multiple edition with built in sale", 
+    "label": "sixthItemLabel", 
+    "sublabel": "sixthItemSubLabel", 
+    "bg": "linear(to-r, #11998e, #38ef7d)",
     "image": "https://uc2adad3e6bba53f49276ce82270.previews.dropboxusercontent.com/p/thumb/ABa4hhccksV3ujuNSXJ2yDk0njrpYo_YmAo59rNUdGTfIY-xgBQuRoWFvojQUPRrr6deuYmK1-fcxJcbwTIxTtaA3Kr2pc1eXtcqkPvQu_K2QbBIet9YIkLG19Tz-LjMbnXIreW7DtT58E4rKAD08iqRiLv0oTNWKElITLXmS_QfWsdSYpplJ5VwIzUDM7NhkuRoeRcik47Os5qNfJmEwt6NsUlqE3fe7lljO_gzuYxP5gRgbh65cGkHF0nsZb7tYpq1cr-UxKg-lPnmtPiWdL8dPhG8V_xp2ZeH-YfiplxViJmAWnTE4zHZKhbhghYHBUPC80knqkYjtxB3v5u2CyRLdFlv1hbIsL1AsuteLh4tYUydysuOcSjaGxa1YB3NjVE/p.png" 
   },
   { 
-    "label": "Skins", 
-    "sublabel": "Fully customizable NFT collection for single or multiple edition with built in sale", 
+    "label": "seventhItemLabel", 
+    "sublabel": "seventhItemSubLabel", 
+    "bg": "linear(to-l, #7928CA, #FF0080)",
     "image": "https://uca10334853afd31f54990285f9f.previews.dropboxusercontent.com/p/thumb/ABYnJ0-b3f3JxEKTKOXXYp8bPCUB4Gv7H-DuP__v1nEi1j4zx6JhgrZ-aTEb-s8OHaLR81wdH7gpXpwjid8Wwy6bzxHFk-fERIrBhzMg1fms420lMHptSXP5AhoGQgaKXycH3j_Hr2c6DHX3vzok-mmzgkFs8xOr3XCdN3Eq_mnLJprYhEw-c88BDaIfbKpU7CuxrqJfIUxyIA8MPAoKTqQql3WV9Nsw6iHulB3kPxeO2LyiSxLD35qMrTxAMnTQjJ62QENfVIjfno3eUFlIuFp0hqTrtOLqJX9NOUicbVyJABONVyA5Yxuaattw9tgaZ0PgwjrMrSPTjNRdBEcihiei9Qp1YUckUMa6BxptGxJyuBHTi2NqMArkm-jY2XxBYjk/p.png"
   },
-  { "label": "Custom Domain", 
-    "sublabel": "Fully customizable NFT collection for single or multiple edition with built in sale", 
+  { "label": "eigthItemLabel", 
+    "sublabel": "eigthItemSubLabel", 
+    "bg": "linear(to-l, #240b36, #c31432)",
     "image": "https://uc856f6299ed207768bd69e37d42.previews.dropboxusercontent.com/p/thumb/ABbkc9nbEhaEG7iIkmkOZgyZPyH1wawPyHBcot7Hy2PhcNP9BrIBqAQMZ_YMArhuilbuK0i8Fhhkgz8-XXduALg09411-qyr23mOxq1sPXOpQJsQZ3MSyggKGpglOWcLPU_I2fp702803WLkhDV8G7Xbk2yYHl5H_eOozuo2slNo36sCJBhTSbuWCd5Hs3w3wtgfYfPgQQqpQm73fQzLEMlMPsfe72q-xJ9Aub-ERn6NDrKd8XSkvWayBBjnZhZ4_OQUbgK9PUj6LYJzgZXaD3P2cwmR1W1FrQsNKOUXh13Yb07UyrQMT40st724yqKXkEBeNsC1HOo-u_JxvkbDxFa3XBzTOth5UOAmKe5hQgvra6OddgfKsnNA3GOUcwSR8vc/p.png"
   }
 ]

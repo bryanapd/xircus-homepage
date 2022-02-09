@@ -1,14 +1,15 @@
 import { 
   Box, Text, Spacer, Heading, Container, 
-  HStack, Image, useDisclosure, 
+  HStack, Image, useDisclosure, Button,
   Stack, IconButton, Link, Select,
+  Drawer, DrawerBody, DrawerContent, DrawerOverlay
  } from '@chakra-ui/react'
 import { 
   ChevronDownIcon, HamburgerIcon, CloseIcon 
 } from '@chakra-ui/icons'
 import { 
   boxStyle, buttonStyle, containerStyle, linkStyle, 
-  typoStyle, logoStyle, 
+  typoStyle, logoStyle, drawerContentStyle, drawerStyle
 } from '../../styles/globalStyle'
 import Router from 'next/router'
 
@@ -25,6 +26,14 @@ const Filter = () => (
     <option value="jp">Japanese</option>
   </Select>
 )
+const MobileDrawer = ({ children, isOpen, onClose }) => (
+  <Drawer {...drawerStyle} isOpen={isOpen} onClose={onClose}>
+    <DrawerOverlay />
+    <DrawerContent {...drawerContentStyle}>
+      <DrawerBody>{ children }</DrawerBody>
+    </DrawerContent>
+  </Drawer>
+) 
 export const Header = ({ src, translation }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
@@ -36,24 +45,26 @@ export const Header = ({ src, translation }) => {
           <Spacer />
           <HStack {...boxStyle.header}>
             <HStack {...boxStyle.header}>
-              <Text>{translation('features')}</Text>
-              <Text>{translation('getStarted')}</Text>
-              <Text>{translation('howToEarn')}</Text>
+              <Button {...buttonStyle.links}>{translation('features')}</Button>
+              <Button {...buttonStyle.links}>{translation('getStarted')}</Button>
+              <Button {...buttonStyle.links}>{translation('howToEarn')}</Button>
             </HStack>
             <Filter />
           </HStack>
           <IconButton
             {...buttonStyle.headerButton}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-            onClick={isOpen ? onClose : onOpen} />
+            onClick={isOpen ? onClose : onOpen}
+            >
+            </IconButton>
         </HStack>
         
         {isOpen ? (
-          <Box display={{ md: 'none' }}>
+          <Box>
             <Stack {...boxStyle.headerLinks}>
-              {links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))}
+              <Button {...buttonStyle.links}>{translation('features')}</Button>
+              <Button {...buttonStyle.links}>{translation('getStarted')}</Button>
+              <Button {...buttonStyle.links}>{translation('howToEarn')}</Button>
               <Filter />
             </Stack>
           </Box>

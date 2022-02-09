@@ -1,12 +1,12 @@
 [
   { 
-    "label": "Deploy a Marketplace", 
+    "label": "firstItemLabel", 
     "image": "https://pbs.twimg.com/media/FIlpyp9XwAQLnwI?format=jpg&name=4096x4096"},
   { 
-    "label": "Deploy a Collection", 
+    "label": "secondItemLabel", 
     "image": "https://miro.medium.com/max/1838/1*xEGjVP4uuTf3iNLLmS7ZOg.png"},
   { 
-    "label": "Mint an NFT", 
+    "label": "thirdItemLabel", 
     "image": "https://i.ytimg.com/vi/iFOuHRRsCjQ/maxresdefault.jpg"
   }
 ]

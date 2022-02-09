@@ -7,7 +7,7 @@
   },
   "hero": {
     "name": "Xircus",
-    "headLine": "Start your <br /> NFT business today!",
+    "headLine": "Start your NFT business today!",
     "subHeadLine": "Deploy your customizable NFT marketplace in minutes bundled with awesome features",
     "deploy": "Deploy Marketplace",
     "punks": "Get XircusPunks for Early Access"
@@ -18,20 +18,96 @@
     "hugeBox": "Voluptate ut consequat ipsum enim.Qui cupidatat dolor minim in ullamco voluptate minim id commodo aliquip veniam sunt consectetur.Eu minim ea voluptate minim nulla cupidata"
   },
   "cycleCard": {
-    "firstItem": "Deploy on multiple blockchain protocols"
+    "firstItem": "Deploy on multiple blockchain protocols",
+    "secondItem": "Accept tokens as payment for NFTs",
+    "thirdItem": "Configure with any decentalized exchanges",
+    "fourthItem": "Deploy and manage multiple collections"
   },
   "products": {
     "title": "Products"
+  },
+  "productsCard": {
+    "firstItemLabel": "Dashboard",
+    "firstItemSubLabel": "Xircus Assets Overview",
+    "secondItemLabel": "Market Explorer",
+    "secondItemSubLabel": "Discover marketplaces and games Mint and collect NFT Items",
+    "thirdItemLabel": "XircusPunks",
+    "thirdItemSubLabel": "Exclusive DAO Avatar",
+    "fourthItemLabel": "Launchpad",
+    "fourthItemSubLabel": "Decentralized Token Auctions",
+    "fifthItemLabel": "Provide Center",
+    "fifthItemSubLabel": "HOST NFT Marketplace Data",
+    "sixthItemLabel": "Token Factory",
+    "sixthItemSubLabel": "Deploy ERC20/BEP20 Tokens",
+    "seventhItemLabel": "Governance",
+    "seventhItemSubLabel": "DAO, Voting and Lounge",
+    "eigthItemLabel": "Deployer Studio",
+    "eigthItemSubLabel": "Deploy Y  our Personal or Community NFT Marketplace",
+    "ninthItemLabel": "Xircus Skins",
+    "ninthItemSubLabel": "Buy and Sell Marketplace Skins",
+    "tenthItemLabel": "Stake and Farm",
+    "tenthItemSubLabel": "Earn Staking Rewards",
+    "eleventhItemLabel": "NFT Meta Uploader",
+    "eleventhItemSubLabel": "Upload NFT META to IPFS",
+    "twelfthItemLabel": "Leaderboard",
+    "twelfthItemSubLabel": "View Marketplace Performances"
   },
   "earn": {
     "title": "How to Earn",
     "subtitle": "Unleash the power of decentralized NFT marketplaces"
   },
-  "deploy": {
-    "title": "Deploy"
+  "earnCard": {
+    "firstItemLabel": "As DAO",
+    "firstItemSubLabel": "Get early access on products, vip lounge, newsletters, early opportunities, discounts, and membership rewards",
+    "secondItemLabel": "As Creator",
+    "secondItemSubLabel": "Mint your NFTs as little as $1 for listing/storage fee and 2.5% transaction fee for every purchase",
+    "thirdItemLabel": "As Collector",
+    "thirdItemSubLabel": " Collect from different marketplaces and manage collectibles via Xircus Mobiel and Xircus TV apps",
+    "fourthItemLabel": "As Marketplace Owner",
+    "fourthItemSubLabel": "Deploy your NFT marketplace, customize your fees and themes, create staking opportunities for your customers",
+    "fifthItemLabel": "As Provider",
+    "fifthItemSubLabel": "Earn from deploying APIs to cached data for marketplaces",
+    "sixthItemLabel": "As Ambassador",
+    "sixthItemSubLabel": "Earn from helping creators mint their creation"
+  },
+  "attributesCard": {
+    "firstItemLabel": "NFTs",
+    "firstItemSubLabel": "Fully customizable NFT collection for single or multiple edition with built in sale",
+    "secondItemLabel": "Marketplaces",
+    "secondItemSubLabel": "Fully customizable NFT collection for single or multiple edition with built in sale",
+    "thirdItemLabel": "Tokens",
+    "thirdItemSubLabel": "Fully customizable NFT collection for single or multiple edition with built in sale",
+    "fourthItemLabel": "Packs",
+    "fourthItemSubLabel": "Fully customizable NFT collection for single or multiple edition with built in sale",
+    "fifthItemLabel": "Staking",
+    "fifthItemSubLabel": "Fully customizable NFT collection for single or multiple edition with built in sale",
+    "sixthItemLabel": "Drops",
+    "sixthItemSubLabel": "Fully customizable NFT collection for single or multiple edition with built in sale",
+    "seventhItemLabel": "Skins",
+    "seventhItemSubLabel": "Fully customizable NFT collection for single or multiple edition with built in sale",
+    "eigthItemLabel": "Custom Domain",
+    "eigthItemSubLabel": "Fully customizable NFT collection for single or multiple edition with built in sale"
+  },
+  "skins": {
+    "title": "What Can You Deploy"
+  },
+  "skinsItems": {
+    "firstItemLabel": "General Marketplaces",
+    "secondItemLabel": "Music Marketplaces",
+    "thirdItemLabel": "Short Video Marketplaces",
+    "fourthItemLabel": "Game Item Marketplaces",
+    "fifthItemLabel": "Adult Marketplaces",
+    "sixthItemLabel": "Fan Marketplaces", 
+    "seventhItemLabel": "Subscription Marketplaces",
+    "eigthItemLabel": "10k Avatar Marketplaces"
   },
   "tutorial": {
     "title": "Easy Steps To Get Started"
+  },
+  "tutorialItems": {
+    "firstItemLabel": "Deploy a Marketplace",
+    "secondItemLabel": "Deploy a Collection",
+    "thirdItemLabel": "Mint an NFT"
   },
   "blockchains": {
     "title": "Multiple Blockchain Support",
@@ -40,12 +116,25 @@
   "features": {
     "title": "Built-In and Add-on Features"
   },
+  "featuresCard": {
+    "firstItemLabel": "Staking",
+    "secondItemLabel": "Randomizer",
+    "thirdItemLabel": "NFT Airdrop",
+    "fourthItemLabel": "Token Auctions"
+  },
   "income": {
     "title": "Income Calculator",
     "subLabel": "Example using 1,000,000 NFT items minted, paid with USDC",
     "label": "What's your marketplace mint fee?",
     "oDollar": "$1",
     "hDollar": "$1"
+  },
+  "incomeItems": {
+    "firstItemLabel": "Get started for free",
+    "secondItemLabel": "No hidden costs",
+    "thirdItemLabel": "$1 mint fee only",
+    "fourthItemLabel": "Owner configured transaction fees starting at 2%",
+    "fifthItemLabel": "Not taking royalty fees"
   },
   "footer": {
     "name": "All Rights Reserved 2021 | Xircus Pte. Ltd",
