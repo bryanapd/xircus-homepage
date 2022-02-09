@@ -1,7 +1,17 @@
 [ 
-  "Get started for free", 
-  "No hidden costs", 
-  "$1 mint fee only", 
-  "Owner configured transaction fees starting at 2%", 
-  "Not taking royalty fees"
+  {
+    "label": "firstItemLabel"
+  },
+  {
+    "label": "secondItemLabel"
+  },
+  {
+    "label": "thirdItemLabel"
+  },
+  {
+    "label": "fourthItemLabel"
+  },
+  {
+    "label": "fifthItemLabel"
+  }
 ]

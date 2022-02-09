@@ -1,13 +1,15 @@
 export const logoStyle = {
   header: {
     boxSize: '30px',
-    borderRadius: 'full'
+    borderRadius: 'full',
+    cursor: 'pointer',
   }
 }
 export const typoStyle = {
   header: {
     fontSize: 'xl',
-    color: 'orange'
+    color: 'orange',
+    cursor: 'pointer'
   },
   headline: {
     fontSize: {base: 40, md: 55, lg: 60},
@@ -49,7 +51,7 @@ export const boxStyle = {
     color: 'white',
   },
   header: {
-    spacing: 7, 
+    spacing: 5, 
     display: { base: 'none', md: 'flex' }
   },
   headerLinks: {
@@ -93,12 +95,17 @@ export const boxStyle = {
     w: '80%',
     textAlign: 'center',
     borderRadius: { base: 0, md: 100},
-    border: '4px solid orange'
+    border: '4px solid orange',
+    cursor: 'pointer',
+    _hover: { 
+      transform: 'scale(1.05)', 
+      transition: '0.5s ease' 
+    }
   },
   earn: {
     p: 10,
     mt: 100,
-    textAlign: 'center'
+    textAlign: 'center',
   },
   tutorial: {
     mt: 30,
@@ -111,11 +118,11 @@ export const boxStyle = {
   clipped: {
     w: 'full',
     bg: 'green.200',
-    h: {base: '80vh', md: '100%'},
+    h: {base: '80vh', md: '100vh'},
     pos: 'absolute', 
     zIndex: -1,
     bgGradient: 'linear(to-r, #91EAE4, #86A8E7, #7F7FD5)',
-    clipPath: 'polygon(0 0, 100% 7%, 100% 100%, 0 95%)'
+    clipPath: 'polygon(0 0, 100% 6%, 100% 100%, 0 95%)'
   },
   blockchain: {
     p: 10,
@@ -134,7 +141,7 @@ export const boxStyle = {
   incomeUnorderedItems: {
     spacing: 5, 
     flex: 2,
-    pt: 10,
+    pt: 100,
     textAlign: {base: 'center', md: 'left'}
   },
   fees: {
@@ -154,7 +161,7 @@ export const containerStyle = {
 export const gridStyle = {
   product: {
     gap: 5,
-    templateColumns: {base: 'repeat(2, 1fr)', md: 'repeat(4, 1fr)'}
+    templateColumns: {base: 'auto', md: 'repeat(4, 1fr)'}
   },
   cycle: {
     gap: 5, 
@@ -167,8 +174,8 @@ export const gridStyle = {
   },
   blockchain: {
     pt: 50,
-    gap: 4,
-    templateColumns: {base: 'repeat(2, 1fr)', md: 'repeat(4, 1fr)', lg: 'repeat(8, 1fr)'}
+    gap: 10,
+    templateColumns: {base: 'repeat(2, 1fr)', md: 'repeat(4, 1fr)', lg: 'repeat(9, 1fr)'}
   },
   footerLinks: {
     templateColumns: {base: 'repeat(2, 1fr)', md: 'repeat(4, 1fr'}
@@ -179,7 +186,38 @@ export const buttonStyle = {
   headerButton: {
     size: 'md',
     bg: 'transparent',
-    display: { md: 'none' }
+    cursor: 'pointer',
+    display: { md: 'none' },
+    _hover: { 
+      boxShadow: '0px 0px 10px orange', bg: '#111', 
+      bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)',
+    },
+    _focus: { 
+      boxShadow: '0px 0px 10px orange', bg: '#111', 
+      bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)' 
+    },
+    _active: { 
+      boxShadow: '0px 0px 10px orange', bg: '#111', 
+      bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)' 
+    }
+  },
+  links: {
+    variant: 'ghost',
+    borderRadius: 50,
+    fontWeight: 'thin',
+    cursor: 'pointer',
+    _hover: { 
+      boxShadow: '0px 0px 10px orange', bg: '#111', 
+      bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)',
+    },
+    _focus: { 
+      boxShadow: '0px 0px 10px orange', bg: '#111', 
+      bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)' 
+    },
+    _active: { 
+      boxShadow: '0px 0px 10px orange', bg: '#111', 
+      bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)' 
+    }
   },
   gradient: {
     color: 'white',
@@ -207,9 +245,11 @@ export const buttonStyle = {
     color: 'white',
     transition: 'all 300ms ease',
     rounded: 'full',
+    border: '1px solid red',
     variant: 'outline',
+    fontWeight: 'thin',
+    cursor: 'pointer',
     w: '120px',
-    borderRadius: 6,
     size: 'md',
     _hover: { 
       boxShadow: '0px 0px 10px orange', bg: '#111', bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)' 
@@ -230,35 +270,58 @@ export const menuItemStyle = {
 
 export const itemCardStyle = {
   product: {
+    cursor: 'pointer',
     p: 7,
     spacing: 3, 
     borderRadius: 10,
-    bgColor: 'gray.900'
+    bgColor: 'gray.900',
+    _hover: { 
+      transform: 'scale(1.05)', 
+      transition: '0.5s ease' 
+    }
   },
   earn: {
-    h: '80px', 
-    w: '80px',
-    bg: 'gray.900', 
-    borderRadius: 10
+    textAlign: 'left',
+    cursor: 'pointer',
+    _hover: { 
+      transform: 'scale(1.05)', 
+      transition: '0.5s ease' 
+    }
   },
   attributes: {
     p: 7,
     spacing: 3, 
     borderRadius: 10,
-    bgGradient: 'linear(to-l, #aa4b6b, #6b6b83, #3b8d99)' 
+    textAlign: {base: 'center', md: 'left'},
+    cursor: 'pointer',
+    _hover: { 
+      transform: 'scale(1.05)', 
+      transition: '0.5s ease' 
+    }
   },
   cycle: {
+    cursor: 'pointer',
     pos: 'relative',
     h: '180px', 
-    w: '250px', 
+    w: {base: 'auto', md: '250px'}, 
+    p: 3,
     borderRadius: 10, 
     textAlign: 'center', 
-    bgGradient: 'linear(to-t, #160D08, #cc2b5e)'
+    bgGradient: 'linear(to-t, #160D08, #cc2b5e)',
+    _hover: { 
+      transform: 'scale(1.05)', 
+      transition: '0.5s ease' 
+    }
   },
   feature: {
     align: 'center', 
     border: "1px solid gray",
-    borderRadius: 10
+    borderRadius: 10,
+    cursor: 'pointer',
+    _hover: { 
+      transform: 'scale(1.05)', 
+      transition: '0.5s ease' 
+    }
   }
 }
 export const linkStyle = {
@@ -270,17 +333,25 @@ export const playButtonStyle = {
   bg: 'white', 
   color: 'red', 
   p: 5, 
+  cursor: 'pointer',
   borderRadius: 50, 
-  fontSize: 60
+  fontSize: 60,
+  _hover: { 
+    color: 'white',
+    boxShadow: '0px 0px 10px orange', bg: '#111', 
+    bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)' 
+  },
 }
 export const imageStyle = {
   product: {
     h: '120px',
-    w: '120px'
+    w: '120px',
+    mx: {base: 'auto', md: 'initial'}
   },
-  earn: {
+  attribute: {
     h: '120px',
-    w: '120px'
+    w: '120px',
+    mx: {base: 'auto', md: 'initial'}
   },
   partners: {
     mx: 'auto',
@@ -291,34 +362,49 @@ export const imageStyle = {
     mx: 'auto', 
     left: '0', 
     right: '0',
-    top: {base: 0, md: -10}, 
+    top: -10, 
     pos: 'absolute'
   },
   blockchains: {
     h: '50px', 
     w: 'auto',
-    objectFit: 'contain' 
+    objectFit: 'contain',
+    cursor: 'pointer',
+    _hover: { 
+      transform: 'scale(1.09)', 
+      transition: '0.5s ease' 
+    }
+
   },
   tutorial: {
     mx: 'auto', 
     h: {base: 300, md: 500},  
-    objectFit: 'cover'
+    objectFit: 'cover',
+    cursor: 'pointer'
   },
-  deploy: {
-    h: '600px', 
-    w: 'auto',
-    objectFit: 'cover'
+  skins: {
+    h: {base: '90vh', md: '700px'}, 
+    w: {base: 'auto', md: '800px'},
+    objectFit: 'cover',
+    cursor: 'pointer',
+    _hover: { 
+      transform: 'scale(1.02)', 
+      transition: '0.5s ease' 
+    }
   }
 }
 export const tabsStyle = {
   orientation: 'vertical',
   variant: 'unstyled',
+  display:'flex',
+  flexDirection:{base:'column', lg:'row'},
   wrap: 'wrap',
 }
 export const tutorialTabs = {
   variant: 'unstyled', 
   defaultIndex: 1,
-  align: 'center'
+  align: 'center',
+  cursor: 'pointer',
 }
 export const progressStyle = {
   size: 'xs', 
@@ -331,6 +417,11 @@ export const footerStyle = {
   direction: { base: 'column', md: 'row' },
   socmed: {
     justifyContent: 'space-between',
+    cursor: 'pointer',
+    _hover: { 
+      transform: 'scale(1.05)', 
+      transition: '0.5s ease' 
+    }
   },
   links: {
   }
@@ -361,4 +452,12 @@ export const sliderStyle = {
   filled: {
     bg: '#FF0099'
   }
+}
+export const drawerContentStyle = {
+  bg: 'white',
+  pt: 10
+}
+export const drawerStyle = {
+  placement: 'right',
+  size: 'md'
 }

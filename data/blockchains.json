@@ -1,65 +1,74 @@
 [
-  { "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "BSC" 
-  },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "POLYGON" 
-  }, 
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "FANTOM" 
-  },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "ETHEREUM" 
-  },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "MOONBEAM" 
-  },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "MOONRIVER" 
-  },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "AVALANCHE" 
-  },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "CELO" 
-  },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
+  {
+    "icon": "https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=018",
     "label": "BSC"
   },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "POLYGON" 
-  }, 
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "FANTOM" 
+  {
+    "icon": "https://cryptologos.cc/logos/polygon-matic-logo.png?v=018",
+    "label": "POLYGON"
   },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "ETHEREUM" 
+  {
+    "icon": "https://cryptologos.cc/logos/fantom-ftm-logo.png?v=018",
+    "label": "FANTOM"
   },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "MOONBEAM" 
+  {
+    "icon": "https://cryptologos.cc/logos/ethereum-eth-logo.png?v=018",
+    "label": "ETHEREUM"
   },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "MOONRIVER" 
+  {
+    "icon": "https://cryptologos.cc/logos/safemoon-safemoon-logo.png?v=018",
+    "label": "MOONBEAM"
   },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "AVALANCHE" 
+  {
+    "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/6836.png",
+    "label": "MOONRIVER"
   },
-  { 
-    "image": "https://cdn4.iconfinder.com/data/icons/cryptocoins/227/ETH-512.png", 
-    "label": "CELO" 
+  {
+    "icon": "https://cryptologos.cc/logos/avalanche-avax-logo.png",
+    "label": "AVALANCHE"
+  },
+  {
+    "icon": "https://cryptologos.cc/logos/celo-celo-logo.png?v=018",
+    "label": "CELO"
+  },
+  {
+    "icon": "https://assets.coingecko.com/coins/images/3157/large/poa-network.png?1548331565",
+    "label": "POA"
+  },
+  {
+    "icon": "https://cryptologos.cc/logos/xdai-stake-logo.png?v=018",
+    "label": "XDAI"
+  },
+  {
+    "icon": "https://seeklogo.com/images/H/heco-logo-B2DCC2EA11-seeklogo.com.png",
+    "label": "HECO"
+  },
+  {
+    "icon": "https://styles.redditmedia.com/t5_23mvy8/styles/communityIcon_q3dnpi85rtu71.png",
+    "label": "ARBITRUM"
+  },
+  {
+    "icon": "https://assets.website-files.com/5f973c970bea5548ad4287ef/61a7eb59d69e3f7e399a852a_optimistic.png",
+    "label": "OPTIMISM"
+  },
+  {
+    "icon": "https://dappimg.com/media/image/dapp/f090b4626acd4a789fede031edb21db0.blob",
+    "label": "FUSE"
+  },
+  {
+    "icon": "https://cryptologos.cc/logos/aurora-aoa-logo.png?v=018",
+    "label": "AURORA"
+  },
+  {
+    "icon": "https://cryptologos.cc/logos/solana-sol-logo.png?v=018",
+    "label": "SOLANA"
+  },
+  {
+    "icon": "https://cryptologos.cc/logos/flow-flow-logo.png?v=018",
+    "label": "FLOW"
+  },  
+  {
+    "icon": "https://www.pngall.com/wp-content/uploads/10/NEAR-Protocol-Crypto-Logo.png",
+    "label": "NEAR"
   }
 ]

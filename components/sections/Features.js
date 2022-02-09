@@ -9,7 +9,7 @@ const FeatureCard = ({label, src}) => (
     <Text {...typoStyle.label}>{label}</Text>
   </Box>
 )
-export const Features = ({ translation, features = [] }) => {
+export const Features = ({ cardTranslation, translation, features = [] }) => {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
@@ -21,7 +21,7 @@ export const Features = ({ translation, features = [] }) => {
         <Heading pb={20}>{translation('title')}</Heading>
         <Carousel breakPoints={breakPoints} itemsToShow={4} itemPadding={[5, 10]}>
           {features.map((feature, featureKey) => (
-            <FeatureCard key={featureKey} src={feature.image} label={feature.label} />
+            <FeatureCard key={featureKey} src={feature.image} label={cardTranslation(feature.label)}/>
           ))}
         </Carousel>
       </Container>

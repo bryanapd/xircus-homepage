@@ -5,7 +5,7 @@ import {
 import { boxStyle, containerStyle, gridStyle, imageStyle, itemCardStyle, typoStyle } from '../../styles/globalStyle'
 
 const EarnCard = ({ children, src }) => (
-  <HStack textAlign="left">
+  <HStack {...itemCardStyle.earn}>
     <Avatar src={src} />
     <Stack>
       {children}
@@ -13,7 +13,7 @@ const EarnCard = ({ children, src }) => (
   </HStack>
 )
 
-export const Earn = ({ translation, items = []}) => (
+export const Earn = ({ translation, cardTranslation, items = []}) => (
   <Box {...boxStyle.earn}>
     <Container {...containerStyle}>
       <Stack spacing={8}>
@@ -23,8 +23,8 @@ export const Earn = ({ translation, items = []}) => (
           {
             items.map((item, itemKey) => 
               <EarnCard src={item.image} key={itemKey}>
-                <Heading {...typoStyle.label}>{item.label}</Heading>
-                <Text {...typoStyle.text}>{item.sublabel}</Text>
+                <Heading {...typoStyle.label}>{cardTranslation(item.label)}</Heading>
+                <Text {...typoStyle.text}>{cardTranslation(item.sublabel)}</Text>
               </EarnCard>
             )
           }

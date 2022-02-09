@@ -20,21 +20,94 @@
   "cycleCard": {
     "firstItem": "複数のブロックチェーンプロトコルにデプロイする",
     "secondItem": "NFTの支払いとしてトークンを受け入れる",
-    "thirItem": "脱色された取引所で構成する",
+    "thirdItem": "脱色された取引所で構成する",
     "fourthItem": "複数のコレクションを展開および管理する"
   },
   "products": {
     "title": "製品"
   },
+  "productsCard": {
+    "firstItemLabel": "ダッシュボード",
+    "firstItemSubLabel": "Xircusアセットの概要",
+    "secondItemLabel": "マーケットエクスプローラー",
+    "secondItemSubLabel": "マーケットプレイスやゲームミントを発見し、NFTアイテムを収集する",
+    "thirdItemLabel": "Xircusパンク",
+    "thirdItemSubLabel": "専用DAOアバター",
+    "fourthItemLabel": "発射台",
+    "fourthItemSubLabel": "センターを提供する",
+    "fifthItemLabel": "分散型トークンオークション",
+    "fifthItemSubLabel": "ホストNFTマーケットプレイスデータ",
+    "sixthItemLabel": "トークンファクトリー",
+    "sixthItemSubLabel": "ERC20 / BEP20トークンを展開する",
+    "seventhItemLabel": "ガバナンス",
+    "seventhItemSubLabel": "DAO、投票およびラウンジ",
+    "eigthItemLabel": "Deployer スタジオ",
+    "eigthItemSubLabel": "パーソナルまたはコミュニティのNFTマーケットプレイスを展開する",
+    "ninthItemLabel": "Xircus スキン",
+    "ninthItemSubLabel": "マーケットプレイススキンの売買",
+    "tenthItemLabel": "ステークと農場",
+    "tenthItemSubLabel": "ステーキングリワードを獲得する",
+    "eleventhItemLabel": "NFTメタアップローダー",
+    "eleventhItemSubLabel": "NFTMETAをIPFSにアップロードする",
+    "twelfthItemLabel": "リーダーボード」",
+    "twelfthItemSubLabel": "マーケットプレイスのパフォーマンスを表示する"
+  },
   "earn": {
     "title": "稼ぐ方法",
     "subtitle": "分散型NFTマーケットプレイスの力を解き放つ"
   },
-  "deploy": {
-    "title": "配備"
+  "earnCard": {
+    "firstItemLabel": "として DAO",
+    "firstItemSubLabel": "製品、vipラウンジ、ニュースレター、早期機会、割引、およびメンバーシップ特典への早期アクセスを取得します",
+    "secondItemLabel": "クリエーターとして",
+    "secondItemSubLabel": "リスティング/保管手数料としてわずか1ドル、購入ごとに2.5％の取引手数料でNFTを作成します。",
+    "thirdItemLabel": "コレクターとして",
+    "thirdItemSubLabel": "さまざまな市場から収集し、XircusMobielおよびXircusTVアプリを介して収集品を管理します",
+    "fourthItemLabel": "マーケットプレイスの所有者として",
+    "fourthItemSubLabel": "NFTマーケットプレイスを展開し、料金とテーマをカスタマイズし、顧客に賭けの機会を創出します",
+    "fifthItemLabel": "プロバイダーとして",
+    "fifthItemSubLabel": "マーケットプレイスのキャッシュデータにAPIをデプロイすることで収益を得る",
+    "sixthItemLabel": "アンバサダーとして",
+    "sixthItemSubLabel": "クリエイターが自分の作品を造るのを手伝うことで稼ぐ"
+  },
+  "attributesCard": {
+    "firstItemLabel": "NFTs",
+    "firstItemSubLabel": "販売が組み込まれた単一または複数のエディション用の完全にカスタマイズ可能なNFTコレクション",
+    "secondItemLabel": "マーケットプレイス",
+    "secondItemSubLabel": "販売が組み込まれた単一または複数のエディション用の完全にカスタマイズ可能なNFTコレクション",
+    "thirdItemLabel": "トークン",
+    "thirdItemSubLabel": "販売が組み込まれた単一または複数のエディション用の完全にカスタマイズ可能なNFTコレクション",
+    "fourthItemLabel": "パック",
+    "fourthItemSubLabel": "販売が組み込まれた単一または複数のエディション用の完全にカスタマイズ可能なNFTコレクション",
+    "fifthItemLabel": "ステーキング",
+    "fifthItemSubLabel": "販売が組み込まれた単一または複数のエディション用の完全にカスタマイズ可能なNFTコレクション",
+    "sixthItemLabel": "ドロップ",
+    "sixthItemSubLabel": "販売が組み込まれた単一または複数のエディション用の完全にカスタマイズ可能なNFTコレクション",
+    "seventhItemLabel": "スキン",
+    "seventhItemSubLabel": "販売が組み込まれた単一または複数のエディション用の完全にカスタマイズ可能なNFTコレクション",
+    "eigthItemLabel": "カスタムドメイン",
+    "eigthItemSubLabel": "販売が組み込まれた単一または複数のエディション用の完全にカスタマイズ可能なNFTコレクション"
+  },
+  "skins": {
+    "title": "何をデプロイできますか"
+  },
+  "skinsItems": {
+    "firstItemLabel": "一般的なマーケットプレイス",
+    "secondItemLabel": "音楽マーケットプレイス",
+    "thirdItemLabel": "ショートビデオマーケットプレイス",
+    "fourthItemLabel": "ゲームアイテムマーケットプレイス",
+    "fifthItemLabel": "アダルトマーケットプレイス",
+    "sixthItemLabel": "ファンマーケットプレイス", 
+    "seventhItemLabel": "サブスクリプションマーケットプレイス",
+    "eigthItemLabel": "10kアバターマーケットプレイス"
   },
   "tutorial": {
     "title": "始めるための簡単なステップd"
+  },
+  "tutorialItems": {
+    "firstItemLabel": "市場を展開する",
+    "secondItemLabel": "コレクションを展開する",
+    "thirdItemLabel": "NFTをミントする"
   },
   "blockchains": {
     "title": "複数のブロックチェーンのサポート」",
@@ -43,12 +116,25 @@
   "features": {
     "title": "組み込みおよびアドオン機能"
   },
+  "featuresCard": {
+    "firstItemLabel": "ステーキング",
+    "secondItemLabel": "ランダマイザー",
+    "thirdItemLabel": "NFTエアドロップ",
+    "fourthItemLabel": "トークンオークション"
+  },
   "income": {
     "title": "収入計算機",
     "subLabel": "USDCで支払われた1,000,000のNFTアイテムを使用した例",
     "label": "あなたの市場の造幣局の手数料はいくらですか？",
     "oDollar": "¥115.19",
     "hDollar": "¥11522.50"
+  },
+  "incomeItems": {
+    "firstItemLabel": "無料で始めましょう",
+    "secondItemLabel": "隠れたコストはありません",
+    "thirdItemLabel": "¥115.19 ドルのミント料金のみ",
+    "fourthItemLabel": "所有者が設定した取引手数料は2％から",
+    "fifthItemLabel": "使用料はかかりません"
   },
   "footer": {
     "name": "無断複写・転載を禁じます2021 | XircusPte。株式会社",

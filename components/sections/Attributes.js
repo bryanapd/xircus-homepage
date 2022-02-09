@@ -7,21 +7,21 @@ import {
   itemCardStyle, typoStyle 
 } from '../../styles/globalStyle'
 
-const FeatureCard = ({ children }) => (
-  <Stack {...itemCardStyle.attributes}>
+const FeatureCard = ({ children, gradient }) => (
+  <Stack bgGradient={gradient} {...itemCardStyle.attributes}>
     {children}
   </Stack>
 )
 
-export const Attributes = ({earn = []}) => (
+export const Attributes = ({attributes = [], cardTranslation }) => (
   <Container {...containerStyle} pt={200}>
     <Grid {...gridStyle.product}>
       {
-        earn.map((earn, earnKey) => 
-          <FeatureCard key={earnKey} {...earn}>
-            <Image {...imageStyle.earn} src={earn.image} />
-            <Heading {...typoStyle.label}>{earn.label}</Heading>
-            <Text {...typoStyle.sublabel}>{earn.sublabel}</Text>
+        attributes.map((attribute, attributeKey) => 
+          <FeatureCard key={attributeKey} gradient={attribute.bg}>
+            <Image {...imageStyle.attribute} src={attribute.image} />
+            <Heading {...typoStyle.label}>{cardTranslation(attribute.label)}</Heading>
+            <Text {...typoStyle.sublabel}>{cardTranslation(attribute.sublabel)}</Text>
           </FeatureCard>
         )
       }
